@@ -1,0 +1,9 @@
+Restore the Database:
+1. Open SQL Server Management Studio on the destination PC.
+2. Connect to the Database Engine where you want to restore the database.
+3. Right-click on the Databases folder in Object Explorer and select "Restore Database"
+4. In the General page of the Restore Database dialog, specify a Database name for the new database.
+5. Select the Device option under Source and click the "Browse" button to locate and select the backup file.
+6. In the Select backup devices dialog, click Add and select the backup file.
+7. Back in the Restore Database dialog, ensure the Restore options are set correctly.
+8. Click OK to start the restore process.
